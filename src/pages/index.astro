@@ -1,0 +1,39 @@
+---
+import AstroLogo from "../assets/astro.svg";
+import Link from "../components/text/Link.astro";
+import Body from "../components/text/Body.astro";
+import Heading from "../components/text/Heading.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <Heading hLevel={1} size="display"
+    ><AstroLogo fill="currentColor" /> Kern Starter
+  </Heading>
+  <section>
+    <Body
+      >This is a starter template leveraging <Link href="https://vite.dev/"
+        >Vite</Link
+      >, <Link href="https://astro.build/">Astro</Link> and <Link
+        href="https://tailwindcss.com/">Tailwind</Link
+      >.
+    </Body>
+    <Body
+      >The visual style is based on <Link
+        href="https://github.com/digitalservicebund/kern-ux-tailwind-theme"
+        >kern-ux-tailwind-theme</Link
+      > and <Link href="https://www.kern-ux.de/komponenten/"
+        >@kern-ux/native</Link
+      >.
+    </Body>
+    <Body> To get started... </Body>
+  </section>
+  <section>
+    <Heading hLevel={2} size="large">Links</Heading>
+    <ul>
+      <li><Link href="/todo">Todo</Link></li>
+      <li><Link href="/kitchensink">Kitchensink</Link></li>
+      <li><Link href="https://docs.astro.build">Astro documentation</Link></li>
+    </ul>
+  </section>
+</Layout>

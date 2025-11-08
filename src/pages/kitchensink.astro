@@ -1,0 +1,93 @@
+---
+import Alert from "../components/Alert.astro";
+import Badge from "../components/Badge.astro";
+import DescriptionList from "../components/DescriptionList.astro";
+import Card from "../components/Card.astro";
+import Fieldset from "../components/input/Fieldset.astro";
+// import Dialog from "../components/Dialog.astro";
+import Progress from "../components/Progress.astro";
+import Summary from "../components/Summary.astro";
+import TaskList from "../components/TaskList.astro";
+import Layout from "../layouts/Layout.astro";
+import Accordion from "../components/Accordion.astro";
+import Heading from "../components/text/Heading.astro";
+import Divider from "../components/Divider.astro";
+import Table from "../components/Table.astro";
+import Container from "../components/Container.astro";
+import Link from "../components/text/Link.astro";
+---
+
+<Layout>
+  <Heading hLevel={1} size="display">Kitchen Sink</Heading>
+  <Link href="../">Back to index</Link>
+
+  <Heading hLevel={2} size="xLarge">Accordion</Heading>
+  <Container>
+    <Accordion />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Alert</Heading>
+  <Container>
+    <Alert />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Badge</Heading>
+  <Container>
+    <Badge />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Card</Heading>
+  <Container>
+    <Card />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Description List</Heading>
+  <Container>
+    <DescriptionList />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Fieldset</Heading>
+  <Container>
+    <Fieldset />
+  </Container>
+  <Divider />
+
+  <!--
+    the dialog has sticky CSS and can't be shown in the kitchensink
+    <Divider/>
+    <Heading hLevel={2} size="xLarge">Dialog</Heading>
+    <Container>
+      <Dialog />
+    </Container>
+    -->
+  <Heading hLevel={2} size="xLarge">Progress</Heading>
+  <Container>
+    <Progress />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Summary</Heading>
+  <Container>
+    <Summary />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Table</Heading>
+  <Container>
+    <Table />
+  </Container>
+  <Divider />
+
+  <Heading hLevel={2} size="xLarge">Task list</Heading>
+  <Container>
+    <TaskList />
+  </Container>
+  <Divider />
+
+  <Link href="../">Back to index</Link>
+</Layout>

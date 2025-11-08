@@ -1,0 +1,49 @@
+<script>
+  const toggleTheme = () => {
+    const html = document.documentElement;
+    const newTheme =
+      html.getAttribute("data-kern-theme") === "light" ? "dark" : "light";
+    html.setAttribute("data-kern-theme", newTheme);
+  };
+  let intervalHandle: null | ReturnType<typeof setInterval> = null;
+  let toggleCounter = 0;
+
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    toggleCounter++;
+    toggleTheme();
+    const discoToggleHandle = document.getElementById("disco-toggle");
+    if (toggleCounter > 5 && discoToggleHandle) {
+      discoToggleHandle.style.display = "block";
+    }
+  });
+
+  document
+    .getElementById("disco-toggle")
+    .addEventListener("click", function () {
+      if (intervalHandle === null) {
+        intervalHandle = setInterval(toggleTheme, 100);
+      } else {
+        clearInterval(intervalHandle);
+        intervalHandle = null;
+      }
+    });
+</script>
+
+<div class="kern-form-check" id="theme-toggle">
+  <input
+    class="kern-form-check__checkbox"
+    id="darkmodeToggle"
+    name="darkmodeToggle"
+    type="checkbox"
+  />
+  <label class="kern-label" for="darkmodeToggle">Darkmode</label>
+</div>
+<div class="kern-form-check" id="disco-toggle" style="display: none;">
+  <input
+    class="kern-form-check__checkbox"
+    id="discoToggle"
+    name="discoToggle"
+    type="checkbox"
+  />
+  <label class="kern-label" for="discoToggle">Discomode</label>
+</div>
