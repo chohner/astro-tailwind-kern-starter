@@ -3,6 +3,11 @@ interface Props {
   href: string;
 }
 const { href } = Astro.props;
+const { BASE_URL } = import.meta.env;
+const baseWithoutTrailingSlash = BASE_URL.endsWith("/")
+  ? BASE_URL.slice(0, -1)
+  : BASE_URL;
+const finalHref = href.startsWith("/") ? baseWithoutTrailingSlash + href : href;
 ---
 
-<a href={href} class="kern-link"><slot /></a>
+<a href={finalHref} class="kern-link"><slot /></a>

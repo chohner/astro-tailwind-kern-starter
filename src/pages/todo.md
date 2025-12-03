@@ -10,4 +10,4 @@ layout: ../layouts/Layout.astro
 - [ ] content collection
 - [ ] form handling with zod validation
 
-<a href="../">back to index</a>
+<a href="./">back to index</a>
