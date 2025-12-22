@@ -20,7 +20,7 @@
     "@digitalservicebund/kern-ux-tailwind-theme": "^1.1.0",
     "@kern-ux/native": "^2.4.0",
     "@tailwindcss/vite": "^4.1.18",
-    "astro": "^5.16.5",
+    "astro": "^5.16.6",
     "oxlint": "^1.33.0",
     "oxlint-tsgolint": "^0.9.1",
     "tailwindcss": "^4.1.18",
