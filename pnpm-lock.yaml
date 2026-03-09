@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@digitalservicebund/kern-ux-tailwind-theme':
-        specifier: ^1.1.0
-        version: 1.1.0(@kern-ux/native@2.4.0)(tailwindcss@4.2.1)
+        specifier: ^2.0.0
+        version: 2.0.0(@kern-ux/native@2.4.0)(tailwindcss@4.2.1)
       '@kern-ux/native':
         specifier: ^2.4.0
         version: 2.4.0
@@ -73,10 +73,10 @@ packages:
     resolution: {integrity: sha512-VERIM64vtTP1C4mxQ5thVT9fK0apjPFobqybMtA1UdUujWka24ERHbRHFGmpbbhp73MhV+KSsHQH9C6uOTdEQA==}
     engines: {node: '>=18'}
 
-  '@digitalservicebund/kern-ux-tailwind-theme@1.1.0':
-    resolution: {integrity: sha512-jPYP7WRoy9LdIEmDxGe4FE5tAvHJbY2lChEvkaKGG+HYxy/j3HwsOIfmPWlBz3/QscUvPDP2XHbci/SgpeDCHQ==}
+  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0':
+    resolution: {integrity: sha512-3Q4MVUd7nrlNyiVj4zImOGe/gStJwOxXgwB7n4yguxiyXrBB5lpwGSnqi1F+Ae6KB5M2olA/3muvAsuLd9WGkg==}
     peerDependencies:
-      '@kern-ux/native': ^2.3.0
+      '@kern-ux/native': ^2.4.0
       tailwindcss: ^4.1.12
 
   '@emnapi/runtime@1.8.1':
@@ -2289,7 +2289,7 @@ snapshots:
     dependencies:
       fontkitten: 1.0.2
 
-  '@digitalservicebund/kern-ux-tailwind-theme@1.1.0(@kern-ux/native@2.4.0)(tailwindcss@4.2.1)':
+  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0(@kern-ux/native@2.4.0)(tailwindcss@4.2.1)':
     dependencies:
       '@kern-ux/native': 2.4.0
       tailwindcss: 4.2.1
