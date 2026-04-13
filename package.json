@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@digitalservicebund/kern-ux-tailwind-theme": "^2.0.0",
-    "@kern-ux/native": "^2.4.0",
+    "@kern-ux/native": "^2.5.0",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.1.4",
     "oxlint": "^1.51.0",
