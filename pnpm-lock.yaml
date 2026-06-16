@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@digitalservicebund/kern-ux-tailwind-theme':
         specifier: ^2.0.0
-        version: 2.0.0(@kern-ux/native@2.5.0)(tailwindcss@4.2.1)
+        version: 2.0.0(@kern-ux/native@2.6.2)(tailwindcss@4.2.1)
       '@kern-ux/native':
-        specifier: ^2.5.0
-        version: 2.5.0
+        specifier: ^2.6.2
+        version: 2.6.2
       '@tailwindcss/vite':
         specifier: ^4.2.1
         version: 4.2.1(vite@7.3.5(@types/node@25.0.2)(jiti@2.6.1)(lightningcss@1.31.1))
@@ -415,8 +415,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@kern-ux/native@2.5.0':
-    resolution: {integrity: sha512-mKNasZH/zExMAqzEtFS+CjvZwn1AE/HsWe8bFN5sjxPM1F6p4f3eXA8HGZqQZQoUXgACPXNYq3DZGcsAt7wm6Q==}
+  '@kern-ux/native@2.6.2':
+    resolution: {integrity: sha512-EGvMOcYfvQ01vxtVzC5lebAXwkRtPyH5oDsDGLp7CWPBFQXXrsKdJsd2bWWEIe94u6Zx04WNtD2BHsaf2lW42w==}
 
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
@@ -1717,6 +1717,7 @@ packages:
   tsconfck@3.1.6:
     resolution: {integrity: sha512-ks6Vjr/jEw0P1gmOVwutM3B7fWxoWBL2KRDb1JfqGVawBmO5UsvmWOQFGHBPl5yxYz4eERr19E6L7NMv+Fej4w==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -2036,9 +2037,9 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0(@kern-ux/native@2.5.0)(tailwindcss@4.2.1)':
+  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0(@kern-ux/native@2.6.2)(tailwindcss@4.2.1)':
     dependencies:
-      '@kern-ux/native': 2.5.0
+      '@kern-ux/native': 2.6.2
       tailwindcss: 4.2.1
 
   '@emnapi/runtime@1.11.1':
@@ -2240,7 +2241,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@kern-ux/native@2.5.0': {}
+  '@kern-ux/native@2.6.2': {}
 
   '@oslojs/encoding@1.1.0': {}
 
