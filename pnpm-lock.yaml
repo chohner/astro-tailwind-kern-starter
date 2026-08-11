@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@digitalservicebund/kern-ux-tailwind-theme':
         specifier: ^2.0.0
-        version: 2.0.0(@kern-ux/native@2.6.4)(tailwindcss@4.3.1)
+        version: 2.0.0(@kern-ux/native@2.6.4)(tailwindcss@4.3.3)
       '@kern-ux/native':
         specifier: ^2.6.4
         version: 2.6.4
@@ -27,8 +27,8 @@ importers:
         specifier: ^0.23.0
         version: 0.23.0
       tailwindcss:
-        specifier: ^4.3.1
-        version: 4.3.1
+        specifier: ^4.3.3
+        version: 4.3.3
       vitest:
         specifier: ^4.1.10
         version: 4.1.10(@types/node@25.0.2)(vite@7.3.5(@types/node@25.0.2)(jiti@2.7.0)(lightningcss@1.32.0))
@@ -1685,6 +1685,9 @@ packages:
   tailwindcss@4.3.1:
     resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
 
+  tailwindcss@4.3.3:
+    resolution: {integrity: sha512-gOhV3P7ufE62QDGg1zVaTgCR+EtPv92k2nIhVcVKcLmxT1sUBsQGhnZj175j+MqRt4zLF7ic+sCYjfhxMxj7YQ==}
+
   tapable@2.3.3:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
     engines: {node: '>=6'}
@@ -2032,10 +2035,10 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0(@kern-ux/native@2.6.4)(tailwindcss@4.3.1)':
+  '@digitalservicebund/kern-ux-tailwind-theme@2.0.0(@kern-ux/native@2.6.4)(tailwindcss@4.3.3)':
     dependencies:
       '@kern-ux/native': 2.6.4
-      tailwindcss: 4.3.1
+      tailwindcss: 4.3.3
 
   '@emnapi/runtime@1.11.1':
     dependencies:
@@ -3734,6 +3737,8 @@ snapshots:
       sax: 1.6.0
 
   tailwindcss@4.3.1: {}
+
+  tailwindcss@4.3.3: {}
 
   tapable@2.3.3: {}
 
