@@ -30,7 +30,7 @@
     "node": ">=22",
     "pnpm": ">=10"
   },
-  "packageManager": "pnpm@10.30.3",
+  "packageManager": "pnpm@11.21.0",
   "keywords": [
     "astro",
     "tailwind",
