@@ -21,7 +21,7 @@
     "@kern-ux/native": "^2.7.2",
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.2.0",
-    "oxlint": "^1.77.0",
+    "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001",
     "tailwindcss": "^4.3.3",
     "vitest": "^4.1.10"
