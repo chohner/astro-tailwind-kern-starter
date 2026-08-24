@@ -24,7 +24,7 @@
     "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^7.0.2001",
     "tailwindcss": "^4.3.3",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.11"
   },
   "engines": {
     "node": ">=22",
