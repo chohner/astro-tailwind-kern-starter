@@ -22,7 +22,7 @@
     "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.2",
     "oxlint": "^1.82.0",
-    "oxlint-tsgolint": "^7.0.2001",
+    "oxlint-tsgolint": "^7.0.2002",
     "tailwindcss": "^4.3.3",
     "vitest": "^4.1.10"
   },
